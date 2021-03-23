@@ -28,6 +28,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docktermo/frontend
+        image: waledcapw/frontend:latest
         ports:
         - containerPort: 4200
