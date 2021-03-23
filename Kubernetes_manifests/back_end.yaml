@@ -29,6 +29,6 @@ spec:
       hostname: backend
       containers:
       - name: backend
-        image: karolinasura/backend
+        image: contrastsecuritydemo/spring-petclinic-rest:1.0
         ports:
         - containerPort: 9966
