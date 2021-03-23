@@ -29,6 +29,6 @@ spec:
       hostname: backend
       containers:
       - name: backend
-        image: contrastsecuritydemo/spring-petclinic-rest:1.0
+        image: snakecharmer2021/backend:latest
         ports:
         - containerPort: 9966

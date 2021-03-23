@@ -28,6 +28,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: npetersdev/spring-petclinic-angular
+        image: snakecharmer2021/frontend:latest
         ports:
         - containerPort: 8080
