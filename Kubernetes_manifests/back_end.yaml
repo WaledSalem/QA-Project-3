@@ -29,6 +29,6 @@ spec:
       hostname: backend
       containers:
       - name: backend
-        image: alimizan/petclinic-backend:latest
+        image: waledcapw/petclinic-backend
         ports:
         - containerPort: 9966
