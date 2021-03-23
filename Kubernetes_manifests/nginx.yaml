@@ -29,6 +29,6 @@ spec:
       hostname: nginx
       containers:
       - name: nginx
-        image: karolinasura/nginx-project:latest
+        image: karolinasura/nginx:latest
         ports:
         - containerPort: 80
