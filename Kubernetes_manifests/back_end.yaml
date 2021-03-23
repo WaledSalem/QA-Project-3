@@ -29,6 +29,6 @@ spec:
       hostname: backend
       containers:
       - name: backend
-        image: snakecharmer2021/backend:latest
+        image: alimizan/petclinic-backend:latest
         ports:
         - containerPort: 9966
