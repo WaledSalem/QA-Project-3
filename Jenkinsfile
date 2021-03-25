@@ -15,7 +15,7 @@ pipeline{
                 sh label: '', script:
                 '''
                 #!/bin/bash
-                ssh -i ~/.ssh/kube-key.pem ip-172-31-35-215.eu-north-1.compute.internal << EOF
+                ssh -i ~/.ssh/kube-key.pem ip-172-31-35-215.eu-north-1.compute.internal -y << EOF
                 git clone https://github.com/WaledSalem/QA-Project-3.git
                 cd QA-Project-3
                 git pull
