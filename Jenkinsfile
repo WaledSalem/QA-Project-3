@@ -15,7 +15,7 @@ pipeline{
                 sh label: '', script:
                 '''
                 #!/bin/bash
-                ssh -i ~/.ssh/jenkins-key.pem ubuntu@ec2-13-49-241-40.eu-north-1.compute.amazonaws.com << EOF
+                ssh -i ~/.ssh/jenkins-key.pem ubuntu@13.48.100.188 << EOF
                 git clone https://github.com/WaledSalem/QA-Project-3.git
                 cd QA-Project-3
                 git pull
